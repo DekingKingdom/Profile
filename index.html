@@ -40,10 +40,10 @@
         </div>
         
         <div class="row">
-            <div id="accordion" class="col-sm-2" style="background-color:#bbb;">
+            <!-- <div id="accordion" class="col-sm-2 bg-home" >
                 <div class="card">
                     <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        <a class="collapsed card-link stretched-link" data-toggle="collapse" href="#collapseOne">
                         Coming Soon!
                         </a>
                     </div>
@@ -56,7 +56,7 @@
                 
                     <div class="card">
                     <div class="card-header">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        <a class="collapsed card-link stretched-link" data-toggle="collapse" href="#collapseTwo">
                         Coming Soon! #2
                         </a>
                     </div>
@@ -69,7 +69,7 @@
                 
                     <div class="card">
                     <div class="card-header">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        <a class="collapsed card-link stretched-link" data-toggle="collapse" href="#collapseThree">
                             Coming Soon! #3
                         </a>
                     </div>
@@ -79,13 +79,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             
-            <div class="col-sm-6" style="background-color:#bbb; padding:10px;">
+            <div class="col-sm-7  bg-home" >
                 <div >
                     <ul class="nav nav-tabs sticky-top nav-justified" role="tablist">
                         <li class="nav-item active"><a href="#home" class="nav-link" data-toggle="tab">Home</a></li>
-                        <li class="nav-item"><a href="#news" class="nav-link" data-toggle="tab"><span class="bi-newspaper"></span> News</a></li>
+                        <li class="nav-item"><a href="#accordion" class="nav-link" data-toggle="tab"><span class="bi-newspaper"></span> News</a></li>
                         <li class="nav-item"><a href="#contact" class="nav-link" data-toggle="tab">Contact</a></li>
                     </ul>
                 </div>
@@ -95,9 +95,48 @@
                         <h3>HOME</h3>
                         <p>Coming Soon!</p>
                     </div>
-                    <div id="news" class="container tab-pane fade"><br>
-                        <h3>President Bola Ahmed Tinubu DO This And That!</h3>
-                        <p>Coming Soon</p>
+                    <div id="accordion" class="container tab-pane fade"><br>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed card-link stretched-link" data-toggle="collapse" href="#collapseOne">
+                                    News Headline
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body  card-success">
+                                    <h1 class="cv-h">Coming Soon!</h1> 
+                                    <p>Lorem ipsum..</p> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed card-link stretched-link" data-toggle="collapse" href="#collapseTwo">
+                                    News Headline
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h1 class="cv-h">Coming Soon!</h1> 
+                                    <p>Lorem ipsum..</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed card-link stretched-link" data-toggle="collapse" href="#collapseThree">
+                                    News Headline
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h1 class="cv-h">Coming Soon!</h1> 
+                                    <p>Lorem ipsum..</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div id="contact" class="container tab-pane fade"><br>
                         <h3>Contact Information</h3>
@@ -105,15 +144,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4" style="background-color:#bbb; padding:10px;">
-                <div class="card -responsive" style="width:90%;margin: auto;">
+            <div class="col-sm-5  bg-home" style="padding:10px;">
+                <div class="card bg-info" style="width:90%;margin: auto;">
                     <img class="card-img-top" src="IMAGE/deking.jpg" alt="DEKING ONWURA" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Chibueze Onwura</h4>
                         <p class="card-text">I am a front-end engineer and a compouter scientist</p>
                         <p class="card-text">I am a designer and also a technology enthusiast.</p>
                         <!-- <p class="card-text">I am <script>document.write((new Date().getFullYear()) - 1999);</script> years old</p> -->
-                        <a href="#cv" class="btn btn-primary stretched-link">See Profile</a>
+                        <a href="cv.html" class="btn btn-primary stretched-link">See Profile</a>
                     </div>
                 </div>
             </div>
