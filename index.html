@@ -13,184 +13,111 @@
     <title>Profile Page</title>
 </head>
     <body>
-        <div class="header bg-transparent top-fixed">
+        <div class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <!-- <div class="header"> -->
+            <a href="./index.html" class="navbar-brand">
+                <img src="IMAGE/deking.png" alt="LOGO" style="width:40px;">
+            </a>
             <h2>DEKING KINGDOM</h2>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link"><span class="bi-house"></span> HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link"><span class="bi-person-circle"></span> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/cv.html" class="nav-link"><span class="bi-person-badge"></span> CV</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         
-        
         <div class="row">
-                <div id="accordion" class="col-sm-2" style="background-color:#bbb;">
-                        <div class="card">
-                                <div class="card-header">
-                                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                                    Coming Soon!
-                                  </a>
-                                </div>
-                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                                  <div class="card-body">
-                                    Lorem ipsum..
-                                  </div>
-                                </div>
-                              </div>
-                            
-                              <div class="card">
-                                <div class="card-header">
-                                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                                    Coming Soon! #2
-                                  </a>
-                                </div>
-                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                                  <div class="card-body">
-                                    Lorem ipsum..
-                                  </div>
-                                </div>
-                              </div>
-                            
-                              <div class="card">
-                                <div class="card-header">
-                                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                                        Coming Soon! #3
-                                  </a>
-                                </div>
-                                <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                  <div class="card-body">
-                                    Lorem ipsum..
-                                  </div>
-                                </div>
-                              </div>
-                </div>
+            <div id="accordion" class="col-sm-2" style="background-color:#bbb;">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        Coming Soon!
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body  card-success">
+                        Lorem ipsum..
+                        </div>
+                    </div>
+                    </div>
                 
-                <div class="col-sm-6" style="background-color:#bbb; padding:10px;">
-                    <div >
-                        <ul class="nav nav-tabs sticky-top nav-justified" role="tablist">
-                            <li class="nav-item active"><a href="#home" class="nav-link" data-toggle="tab">Home</a></li>
-                            <li class="nav-item"><a href="#news" class="nav-link" data-toggle="tab">News</a></li>
-                            <li class="nav-item"><a href="#contact" class="nav-link" data-toggle="tab">Contact</a></li>
-                            <li class="nav-item"><a href="#cv" class="nav-link" data-toggle="tab">CV</a></li>
-                        </ul>
+                    <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        Coming Soon! #2
+                        </a>
                     </div>
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div id="home" class="container tab-pane active"><br>
-                            <h3>HOME</h3>
-                            <p>Coming Soon!</p>
-                        </div>
-                        <div id="news" class="container tab-pane fade"><br>
-                            <h3>President Bola Ahmed Tinubu DO This And That!</h3>
-                            <p>Coming Soon</p>
-                        </div>
-                        <div id="contact" class="container tab-pane fade"><br>
-                            <h3>Contact Information</h3>
-                            <p>Coming Soon!</p>
-                        </div>
-                        <div id="cv" class="container tab-pane fade"><br>
-                            
-                            <table cellspacing="20">
-                                <tbody><tr>
-                                <td>
-                                <img src="image/deking.jpg" ,="" alt="Picture of Deking" style="width:200px;border-radius:50%;">
-                                </td>
-                                <td>
-                                <h1>Onwura Chibueze Celestine</h1>
-                                <p>I am a front-end engineer and a compouter scientist</p>
-                                <p>I am a designer and also a technology enthusiast.</p>
-                                </td>
-                                </tr>
-                            </table>
-                            
-                                <hr>
-                                <h3>Educational Qualifications</h3>
-                                <ul>
-                                    <li>First Leaving School Certificate (FSLC)</li>
-                                    <li>Secondary School Certificate Examination (SSCE))</li>
-                                    <li>Computer Science (BSc)</li>
-                                </ul>
-                                
-                                <hr>
-                                <h3>Hobbies</h3>
-                                <ol>
-                                    <li>Reading</li>
-                                    <li>Music</li>
-                                    <li>Walking</li>
-                                    <li>Travel</li>
-                                    <li>Movies</li>
-                                    <li>Video Games</li>
-                                    <li>Learning</li>
-                                </ol>
-                            
-                                <hr>
-                                <h3>My Work Experiences</h3>
-                                <table cellspacing="5">
-                                <thead>
-                                <tr>
-                                <th>Job</th>
-                                <th>Work Description</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                <td>Hardware Engineer</td>
-                                <td>Worked in computer Hardware repair shop (2017-2019)</td>
-                                </tr>
-                                <tr>
-                                <td>Graphic Designer</td>
-                                <td>From a simple logo to a full flier. from basic card to a full UI for a better user Experience</td>
-                                </tr>
-                                <tr>
-                                <td>Web Development</td>
-                                <td>I am a front=end developer with basic knowledge of some back-end tools</td>
-                                </tr>
-                                <tr>
-                                <td>Mobile Development</td>
-                                <td>I am currently developing my skills on mobile development</td>
-                                </tr>
-                                <tr>
-                                <td>Counceling</td>
-                                <td>Ocationally my friends come for advice and aftersome times they come back with positive reviews</td>
-                                </tr>
-                                </tbody>
-                                </table>
-                            
-                                <hr>
-                                <h3>Skills</h3>
-                                <table cellspacing="5">
-                                <tbody><tr>
-                                <td>Java Development</td>
-                                <td>★ 	★ 	✰	✰	✰</td>
-                                </tr>
-                                <tr>
-                                <td>Web Development</td>
-                                <td>★ 	★ 	★	✰	✰</td>
-                                </tr>
-                                <tr>
-                                <td>Drawing and Painting</td>
-                                <td>★ 	★ 	✰	✰	✰</td>
-                                </tr>
-                                <tr>
-                                <td>Basic Home Repairs</td>
-                                <td>★ 	★ 	✰	✰	✰</td>
-                                </tr>
-                                </tbody></table>
-                            
-                                <hr>
-                                <p><a href="Contact-Me.html">Contact Me</a></p>
-                                
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4" style="background-color:#bbb; padding:10px;">
-                    <div class="card -responsive" style="width:90%;margin: auto;">
-                        <img class="card-img-top" src="IMAGE/deking.jpg" alt="DEKING ONWURA" style="width:100%">
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
                         <div class="card-body">
-                            <h4 class="card-title">Chibueze Onwura</h4>
-                            <p class="card-text">I am a front-end engineer and a compouter scientist</p>
-                            <p class="card-text">I am a designer and also a technology enthusiast.</p>
-                            <p class="card-text">I am <script>document.write((new Date().getFullYear()) - 1999);</script> years old</p>
-                            <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+                        Lorem ipsum..
+                        </div>
+                    </div>
+                    </div>
+                
+                    <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            Coming Soon! #3
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                        Lorem ipsum..
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="col-sm-6" style="background-color:#bbb; padding:10px;">
+                <div >
+                    <ul class="nav nav-tabs sticky-top nav-justified" role="tablist">
+                        <li class="nav-item active"><a href="#home" class="nav-link" data-toggle="tab">Home</a></li>
+                        <li class="nav-item"><a href="#news" class="nav-link" data-toggle="tab"><span class="bi-newspaper"></span> News</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link" data-toggle="tab">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <h3>HOME</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                    <div id="news" class="container tab-pane fade"><br>
+                        <h3>President Bola Ahmed Tinubu DO This And That!</h3>
+                        <p>Coming Soon</p>
+                    </div>
+                    <div id="contact" class="container tab-pane fade"><br>
+                        <h3>Contact Information</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" style="background-color:#bbb; padding:10px;">
+                <div class="card -responsive" style="width:90%;margin: auto;">
+                    <img class="card-img-top" src="IMAGE/deking.jpg" alt="DEKING ONWURA" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Chibueze Onwura</h4>
+                        <p class="card-text">I am a front-end engineer and a compouter scientist</p>
+                        <p class="card-text">I am a designer and also a technology enthusiast.</p>
+                        <!-- <p class="card-text">I am <script>document.write((new Date().getFullYear()) - 1999);</script> years old</p> -->
+                        <a href="#cv" class="btn btn-primary stretched-link">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
      
 
         <div class="footer">
@@ -198,7 +125,7 @@
                     <div class="container">
                         <div class="col-md-6">
                             <p class="response"></p>
-                            <h2 class="footer-heading mb-4">Subscribe To my Newsletter</h2>
+                            <h2 class="footer-heading mb-4 cv-h">Newsletter</h2>
                             
                             <!-- Newsletter form to be handled -->
                             <form method="POST" id="send_letter">
@@ -215,11 +142,11 @@
                         <div class="row pt-5 mt-5 text-center">
                         <div class="col-md-12">
                             <div class="border-top pt-5">
-                                <h2 class="footer-heading mb-4">Follow Me</h2>
+                                <h2 class="footer-heading mb-4 cv-h">Follow Me</h2>
                                 <a href="https://www.facebook.com/CodersKingDom" class="pl-0 pr-3"><span class="bi-facebook"></span></a>
-                                <a href="https://twitter.com/Dekingkingdom?t=PdA1LVbl71be5hU627jzKw&s=09index.html#" class="pl-3 pr-3"><span class="bi-twitter"></span></a>
-                                <a href="https://instagram.com/dekingkingdom" class="pl-3 pr-3"><span class="bi-instagram"></span></a>
-                                <a href="https://www.github.com/DekingKingdom" class="pl-3 pr-3"><span class="bi-github"></span></a>
+                                <a href="https://twitter.com/Dekingkingdom" class="pl-3 pr-3"><span class="bi-twitter text-info"></span></a>
+                                <a href="https://instagram.com/dekingkingdom" class="pl-3 pr-3"><span class="bi-instagram text-danger"></span></a>
+                                <a href="https://www.github.com/DekingKingdom" class="pl-3 pr-3"><span class="bi-github text-dark"></span></a>
                                 <a href="https://www.linkedin.com/in/chibueze-onwura-403870247" class="pl-3 pr-3"><span class="bi-linkedin"></span></a><br><br>
                             <img src='IMAGE/deking.png' width='30px'><br>
             
