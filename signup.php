@@ -1,0 +1,98 @@
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Contact Deking</title>
+    </head>
+    <body>
+        <div class="navbar navbar-expand-md navbar-dark sticky-top">
+                    <!-- <div class="header"> -->
+                    <a href="./index.html" class="navbar-brand">
+                        <img src="IMAGE/deking.png" alt="LOGO" style="width:40px;">
+                    </a>
+                    <h2 class="hero-text">DEKINGKINGDOM</h2>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link"><span class="bi-house"></span> HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html" class="nav-link"><span class="bi-person-circle"></span> Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./cv.html" class="nav-link"><span class="bi-person-badge"></span> CV</a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+        <div class="container">
+            <form method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+                <footer class="site-footer">
+                        <div class="container">
+                            <div class="col-md-6">
+                                <p class="response"></p>
+                                <h2 class="footer-heading mb-4 cv-h">Newsletter</h2>
+                                
+                                <!-- Newsletter form to be handled -->
+                                <form method="POST" id="send_letter">
+                                    <div class="input-group mb-3 footer-subscribe">
+                                    <input type="email" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" name="email" id="email">
+                                        <div class="input-group-append">
+                                            <button type='button' class="btn btn-primary text-black" onclick='send(this)' id='submit'>Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                            
+                            <div class="row pt-5 mt-5 text-center">
+                            <div class="col-md-12">
+                                <div class="border-top pt-5">
+                                    <h2 class="footer-heading mb-4 cv-h">Follow Me</h2>
+                                    <a href="https://www.facebook.com/CodersKingDom" class="pl-0 pr-3"><span class="bi-facebook"></span></a>
+                                    <a href="https://twitter.com/Dekingkingdom" class="pl-3 pr-3"><span class="bi-twitter text-info"></span></a>
+                                    <a href="https://instagram.com/dekingkingdom" class="pl-3 pr-3"><span class="bi-instagram text-danger"></span></a>
+                                    <a href="https://www.github.com/DekingKingdom" class="pl-3 pr-3"><span class="bi-github text-dark"></span></a>
+                                    <a href="https://www.linkedin.com/in/chibueze-onwura-403870247" class="pl-3 pr-3"><span class="bi-linkedin"></span></a><br><br>
+                                <img src='IMAGE/deking.png' width='30px'><br>
+                
+                                <p class="copyright"><small>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+                            
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </footer>
+        </div>
+    </body>
+    </html>
