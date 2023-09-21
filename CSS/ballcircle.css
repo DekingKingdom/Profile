@@ -1,0 +1,222 @@
+.box {
+    margin: auto;
+    background: #f00;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 20px;
+    border:3px solid #000;
+}
+
+.guild {
+
+    position:absolute;
+    height: 10px;
+    width: 100%;
+   top: 140px;
+}
+
+.ball-line {
+    position: absolute; 
+    width: 100%;
+    height: 2px;
+    background: #000;
+    margin-top:4px;
+}
+.ball {
+    position: absolute;
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background: #fff;
+    /* margin-top: 90px; */
+}
+
+.l1 {
+    left:0%;
+    animation: mv1 6s linear infinite ;
+    background-color: purple;
+}
+@keyframes mv1 {
+    0%{
+        left: 0%;
+    }
+    50%{
+        left:290px;
+    }
+    100%{
+        left: 0%;
+    }
+}
+.l2 {
+    animation: mv2 6s linear infinite;
+    background-color:green;
+}
+@keyframes mv2 {
+    0%{
+        left: 25%;
+    }
+    37.5%{
+        left:290px;
+    }
+    87.5%{
+        left:0%;
+    }
+    100%{
+        left: 25%;
+    }
+}
+.l3 {
+    left:35%;
+    animation: mv3 6s linear infinite ;
+    background-color: blue;
+}
+@keyframes mv3 {
+    0%{
+        left: 37.5%;
+    }
+    31.25%{
+        left:290px;
+    }
+    81.25%{
+        left:1%;
+    }
+    100%{
+        left: 37%;
+    }
+}
+.l4 {
+    left: 50%;
+    animation: mv4 6s linear infinite ;
+    background-color: yellow;
+}
+@keyframes mv4 {
+    0%{
+        left: 50%;
+    }
+    25%{
+        left:290px;
+    }
+    75%{
+        left:0%;
+    }
+    100%{
+        left: 50%;
+    }
+
+}
+.l5 {
+    animation: mv5 6s linear infinite ;
+    background-color: burlywood;
+}
+@keyframes mv5 {
+    0%{
+        left: 62.5%;
+    }
+    18.75%{
+        left:290px;
+    }
+    68.75%{
+        left:0%;
+    }
+    100%{
+        left: 62.5%;
+    }
+}
+.l6 {
+    left:75%;
+    animation: mv6 6s linear infinite ;
+    background-color:pink;
+}
+@keyframes mv6 {
+    0%{
+        left: 75%;
+    }
+    12.5%{
+        left:290px;
+    }
+    62.5%{
+        left:0%;
+    }
+    100%{
+        left: 75%;
+    }
+}
+.l7 {
+    left:290px;
+    animation: mv7 6s linear infinite ;
+    background-color:powderblue;
+}
+@keyframes mv7 {
+    0%{
+        left: 87.5%;
+    }
+    6.25%{
+        left:290px;
+    }
+    56.25%{
+        left:0%;
+    }
+    100%{
+        left: 87.5%;
+    }
+}
+.l8 {
+    left: 12.5%;
+    animation: mv8 6s linear infinite ;
+    background-color:whitesmoke;
+}
+
+@keyframes mv8 {
+    0%{
+        left: 12.5%;
+    }
+    43.75%{
+        left:290px;
+    }
+    93.75%{
+        left:0%;
+    }
+    100%{
+        left: 12.5%;
+    }
+}
+.con {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+#btn1 {
+    color: white;
+    width: 100px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+}
+.rot-1 {
+    transform: rotate(22.5eg);
+}
+.rot-2 {
+    transform: rotate(45deg);
+}
+.rot-3 {
+    transform: rotate(67.5deg);
+}
+.rot-4 {
+    transform: rotate(90deg);
+}
+.rot-5 {
+    transform: rotate(112.5deg);
+}
+.rot-6 {
+    transform: rotate(135deg);
+}
+.rot-7 {
+    transform: rotate(157.55deg);
+}
+.rot-8 {
+    transform: rotate(22.5deg);
+}
